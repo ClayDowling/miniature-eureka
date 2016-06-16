@@ -52,7 +52,7 @@ int main(int argc, char **argv)
 	startrace_params[2] = NULL;
 
 	gedit_params[0] = "gedit";
-	gedit_params[1] = "openfile";
+	gedit_params[1] = openfile;
 	gedit_params[2] = NULL;
 
 	if ((status = launch_program(coderace, startrace, startrace_params))) {
