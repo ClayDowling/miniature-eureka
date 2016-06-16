@@ -35,8 +35,8 @@ int main(int argc, char **argv)
 	char *home;
 	char startrace[256];
 	char openfile[256];
-	char * const* startrace_params[3];
-	char * const* gedit_params[3];
+	char * startrace_params[3];
+	char * gedit_params[3];
 	int status;
 
 	home = getenv("HOME");
